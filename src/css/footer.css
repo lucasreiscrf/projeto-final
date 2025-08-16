@@ -1,0 +1,16 @@
+.background-footer {
+  background-color: rgb(110, 110, 115);
+  padding: 10px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center; 
+  margin-top: 5px;
+  align-items: center;
+  gap: 2px;
+}
+
+.footer-flex img {
+  margin-top: -17px;
+}
