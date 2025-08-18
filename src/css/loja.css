@@ -4,13 +4,14 @@
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 50px;
+    gap: 10px;
 }
 
 .flex2 {
     display: flex;
     justify-content: flex-start;
     margin-left: 10px;
-    gap: 2px;
+    gap: 10px;
 }
 
 .text-cinza {

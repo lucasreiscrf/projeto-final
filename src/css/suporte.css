@@ -10,9 +10,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    align-items: flex-end;
     cursor: pointer;
     list-style-type: none;
     gap: 50px;

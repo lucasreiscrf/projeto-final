@@ -6,7 +6,7 @@
 .footer-flex {
   display: flex;
   justify-content: center; 
-  margin-top: 5px;
+  margin-top: 5px; 
   align-items: center;
   gap: 2px;
 }
