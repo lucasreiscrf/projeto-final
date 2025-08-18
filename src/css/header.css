@@ -1,0 +1,51 @@
+#root {
+  text-align: center;
+  max-width: 100%;
+  background-color: #FFFDD0;
+}
+
+.background-header {
+  background-color: rgb(110, 110, 115);
+  padding: 5px;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+}
+  
+.nav a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: black;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cor inicial do SVG */
+.svg path {
+  fill: #000000; /* Cor preta */
+  transition: fill 0.3s ease;
+}
+
+/* Cor quando o SVG é hoverizado */
+.svg:hover path {
+  fill: #0090F7; /* Cor azul no hover */
+}
+
+@media screen and (max-width: 768px) {
+    .background-header {
+      zoom: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .background-header {
+      zoom: 75%;
+    }
+}

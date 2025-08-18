@@ -1,0 +1,68 @@
+.bnt-class {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bnt1, .bnt2 {
+    gap: 5px;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    margin: 1px;
+    border: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.bnt1 { 
+    width: 100px;
+    height: 36px;
+}
+
+.bnt2, .bnt3 {
+    width: 88px;
+    height: 36px;
+}
+
+.bnt1 {
+    background-color: rgb(227, 136, 0);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bnt1:hover {
+    background-color: rgb(255, 170, 51);
+}
+
+.bnt2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(227, 136, 0);
+    border: solid 1px;
+    border-color: rgb(227, 136, 0);
+}
+
+.bnt2:hover {
+    background-color: rgb(227, 136, 0);
+    color: white;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 12px;
+    display: inline;
+    position: relative;
+    left: 45%;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .botao {
+        zoom: 60%;
+    }
+}

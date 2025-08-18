@@ -1,0 +1,59 @@
+.titulo {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+/* Inicialmente o menu fica escondido */
+.accessories-list {
+  display: none;
+  transition: all 0.3s ease; /* Suaviza a transição */
+}
+
+/* Quando a classe 'show' é acionada, o menu aparece */
+.accessories-list.show {
+  display: block; /* Torna o menu visível */
+  background-color: #0090F7;
+}
+
+.accessories-list ul {
+  display: inline-block; 
+  padding: 10px;
+  margin-right: 20px; 
+  vertical-align: top; 
+}
+
+.accessories-list li {
+  list-style-type: none; /* Remove o marcador da lista */
+  padding: 8px 0; 
+  text-align: justify;
+}
+
+.accessories-list li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}  
+
+.img-acessorios img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2, h4 {
+      zoom: 80%;
+    }
+
+    .accessories-list.show {
+      display: grid;
+    }
+
+    .img-acessorios {
+      display: none;
+    }
+
+    .textarea {
+      display: none;
+    }
+
+}

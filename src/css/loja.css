@@ -1,0 +1,51 @@
+.flex1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    gap: 2px;
+}
+
+.text-cinza {
+    color: rgb(110, 110, 115);
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .flex1 {
+        display: block;
+    }
+
+    .flex2 {
+        display: block;
+    }
+
+    .container-card {
+        zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex1 {
+        display: block;
+    }
+
+    .flex2 {
+        display: block;
+    }
+
+    .container-card {
+        display: inline-block;
+    }
+}

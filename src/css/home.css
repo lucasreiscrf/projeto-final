@@ -1,0 +1,191 @@
+.container {
+  max-width: max-content;
+  padding: 0px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden; /* serve para ocultar qualquer conteúdo que ultrapasse os limites de um elemento, como um container */
+}
+
+.image-container2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.image-container img, .image-container2 img {
+  width: 100%;  /* Faz a imagem ocupar 100% do espaço disponível */
+  height: auto; /* Garante que a imagem mantenha a proporção */
+}
+
+.text-overlay, .text-overlay2 {
+  position: absolute;
+  margin-top: 20px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.text-overlay h2 {
+  margin: 0;  
+  font-weight: bolder;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay h4 {
+  margin: 0;  
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay span {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+  background: linear-gradient(45deg, #0090F7, #BA62FC, #F2416B, #F55600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width: auto;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline;
+  z-index: 2;
+}
+
+.text-overlay p {
+  margin: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(110, 110, 115);
+}
+
+.text-overlay2 h2 {
+  margin: 0;  
+  font-weight: bolder;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay2 p {
+  margin: 0;  
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay3 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.text-overlay3 h2 {
+  margin: 0;  
+  font-weight: bolder;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay3 p {
+  margin: 0;  
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-overlay4, .text-overlay6 {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 2;
+}
+
+.text-overlay6 {
+  color: white;
+}
+
+.text-overlay4 img, .text-overlay6 img {
+  width: 180px;
+  padding: 5px;
+}
+
+.text-overlay5 {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 2;
+}
+
+.text-overlay5 h3, .text-overlay6 h3 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.text-overlay5 p, .text-overlay6 p {
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.lado-a-lado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .text-overlay,
+    .text-overlay2,
+    .text-overlay3,
+    .text-overlay4,
+    .text-overlay5,
+    .text-overlay6 {
+      zoom: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .text-overlay,
+    .text-overlay2,
+    .text-overlay3,
+    .text-overlay4,
+    .text-overlay5,
+    .text-overlay6 {
+      zoom: 37%;
+    }
+}
