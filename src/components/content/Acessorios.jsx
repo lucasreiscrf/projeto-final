@@ -59,23 +59,23 @@ export default function Acessorios() {
               <li>Acessórios para recarga</li>
               <li>AirTag e acessórios</li>
               <li>Armazenamento</li>
-              <li>Capas e Proteção</li>
+              <li>Capas e proteção</li>
             </ul>
 
             <ul>
               <li>Escritório em casa</li>
               <li>Ferramentas criativas</li>
-              <li>AirTag e acessórios</li>
               <li>Fones de ouvido e caixas de som</li>
               <li>Fotografia</li>
+              <li>Jogos</li>
             </ul>
 
             <ul>
-              <li>Jogos</li>
-              <li>Ferramentas criativas</li>
+              <li>MagSafe</li>
               <li>Mouses e teclados</li>
               <li>Novidades</li>
               <li>Pulseiras para Apple Watch</li>
+              <li>Saúde e boa forma</li>
             </ul>
           </div>
         </nav>
